@@ -1,0 +1,7 @@
+fields:
+  - name: date_index
+    type: date
+  - name: count_variable
+    type: string
+  - name: count
+    type: integer

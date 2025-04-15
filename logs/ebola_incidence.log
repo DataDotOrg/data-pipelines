@@ -1,0 +1,28 @@
+valid: true
+stats:
+  tasks: 1
+  errors: 0
+  warnings: 0
+  seconds: 0.063
+warnings: []
+errors: []
+tasks:
+  - name: ebola_incidence
+    type: table
+    valid: true
+    place: data/ebola_incidence.csv
+    labels:
+      - date_index
+      - count_variable
+      - count
+    stats:
+      errors: 0
+      warnings: 0
+      seconds: 0.063
+      md5: 3c60dbef4c4e0a02e5bbc56800cbbe98
+      sha256: 6312ace9f5d4aaf47dc410d4d964aea0124c3acec341abf86643a4b9a7b91d95
+      bytes: 11402
+      fields: 3
+      rows: 361
+    warnings: []
+    errors: []

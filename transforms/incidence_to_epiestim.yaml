@@ -1,0 +1,9 @@
+steps:
+  - type: table-normalize
+  - title: "remove extraneous field"
+    type: field-remove
+    names:
+      - count_variable
+  - title: "write to file"
+    type: table-write
+    path: data/ebola_incidence.field_removed.csv

@@ -1,0 +1,5 @@
+fields:
+  - name: id
+    type: date
+  - name: date_onset
+    type: string

@@ -1,0 +1,10 @@
+# serial interval parameters
+covid:
+    mean: 4.7
+    std: 2.9
+influenza:
+    mean: 2.6
+    std: 1.5
+ebola:
+    mean: 14.2
+    std: 9.6

@@ -1,0 +1,20 @@
+{
+  "steps": [
+    {
+      "type": "table-normalize"
+    },
+    {
+      "name": "filter_fields",
+      "type": "field-filter",
+      "names": [
+        "id",
+        "date_onset"
+      ]
+    },
+    {
+      "title": "write output",
+      "type": "table-write",
+      "path": "data/linelist_example_data_filtered_cols.csv"
+    }
+  ]
+}

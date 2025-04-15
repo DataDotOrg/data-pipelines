@@ -1,0 +1,5 @@
+fields:
+  - name: dates
+    type: date
+  - name: I
+    type: integer

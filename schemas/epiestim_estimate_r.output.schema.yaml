@@ -1,0 +1,23 @@
+fields:
+  - name: t_start
+    type: integer
+  - name: t_end
+    type: integer
+  - name: Mean(R)
+    type: number
+  - name: Std(R)
+    type: number
+  - name: Quantile.0.025(R)
+    type: number
+  - name: Quantile.0.05(R)
+    type: number
+  - name: Quantile.0.25(R)
+    type: number
+  - name: Median(R)
+    type: number
+  - name: Quantile.0.75(R)
+    type: number
+  - name: Quantile.0.95(R)
+    type: number
+  - name: Quantile.0.975(R)
+    type: number
