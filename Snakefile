@@ -1,13 +1,19 @@
 configfile: "config.yaml"
 
-rule all:
+rule influenza:
     input:
         # influenza
         "data/linelist_example_data_filtered_cols.csv",
-        "logs/epinow2_reported_cases.validation.log",
+        "logs/epinow2_reported_cases.validation.log"
+
+rule ebola:
+    input:
         # ebola
         "data/ebola_incidence.transformed.csv",
-        "results/ebola_estimate_r.csv",
+        "results/ebola_estimate_r.csv"
+
+rule dag:
+    input:
         "viz/dag.png"
 
 
